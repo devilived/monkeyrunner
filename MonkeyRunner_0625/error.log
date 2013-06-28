@@ -1,0 +1,15 @@
+六月 28, 2013 12:06:04 下午 com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: wake.
+六月 28, 2013 12:06:07 下午 com.android.chimpchat.adb.AdbChimpDevice$1 run
+INFO: Error starting command: monkey --port 12345
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.chimpchat.adb.AdbChimpDevice$1.run(AdbChimpDevice.java:105)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
